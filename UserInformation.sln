@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInformation.Services.NUnit.Test", "UserService.NUnit.Test\UserInformation.Services.NUnit.Test.csproj", "{4C716E17-10A7-4E01-99FD-A9AB176B5343}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInformation.WebService", "UserInformation.WebService\UserInformation.WebService.csproj", "{221DC550-B3FD-4D3E-9A71-BF4DD1E35503}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInformation.WCFService", "UserInformation.WCFService\UserInformation.WCFService.csproj", "{A2B1FCBC-EF7A-4098-A475-EA64E972EAC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInformation.SelfHost", "UserInformation.SelfHost\UserInformation.SelfHost.csproj", "{96EBE737-8D05-4419-A7CE-33D0C4808A7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C716E17-10A7-4E01-99FD-A9AB176B5343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C716E17-10A7-4E01-99FD-A9AB176B5343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C716E17-10A7-4E01-99FD-A9AB176B5343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C716E17-10A7-4E01-99FD-A9AB176B5343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{221DC550-B3FD-4D3E-9A71-BF4DD1E35503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{221DC550-B3FD-4D3E-9A71-BF4DD1E35503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{221DC550-B3FD-4D3E-9A71-BF4DD1E35503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{221DC550-B3FD-4D3E-9A71-BF4DD1E35503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2B1FCBC-EF7A-4098-A475-EA64E972EAC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B1FCBC-EF7A-4098-A475-EA64E972EAC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B1FCBC-EF7A-4098-A475-EA64E972EAC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B1FCBC-EF7A-4098-A475-EA64E972EAC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96EBE737-8D05-4419-A7CE-33D0C4808A7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96EBE737-8D05-4419-A7CE-33D0C4808A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96EBE737-8D05-4419-A7CE-33D0C4808A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96EBE737-8D05-4419-A7CE-33D0C4808A7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://gironte.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = UserInformation.SelfHost\\UserInformation.SelfHost.csproj
+		SccProjectName1 = UserInformation.SelfHost
+		SccLocalPath1 = UserInformation.SelfHost
+		SccProjectUniqueName2 = UserInformation.WCFService\\UserInformation.WCFService.csproj
+		SccProjectName2 = UserInformation.WCFService
+		SccLocalPath2 = UserInformation.WCFService
+		SccProjectUniqueName3 = UserInformation.WebService\\UserInformation.WebService.csproj
+		SccProjectName3 = UserInformation.WebService
+		SccLocalPath3 = UserInformation.WebService
+		SccProjectUniqueName4 = UserService.NUnit.Test\\UserInformation.Services.NUnit.Test.csproj
+		SccProjectName4 = UserService.NUnit.Test
+		SccLocalPath4 = UserService.NUnit.Test
+	EndGlobalSection
+EndGlobal
